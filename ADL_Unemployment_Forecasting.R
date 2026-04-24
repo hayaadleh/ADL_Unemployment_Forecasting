@@ -3,7 +3,7 @@ library(fredr)
 library(dynlm)
 library(timetk)
 
-# Part 2: Authenticate with the FRED API using a personal access key
+# Authenticate with the FRED API using a personal access key
 fredr_set_key('Your Authentification Code')
 
 # Download monthly and weekly unemployment claims and the monthly unemployment rate
