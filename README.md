@@ -21,38 +21,3 @@ How to Run
 1. Obtain an API key from [FRED](https://fred.stlouisfed.org/docs/api/api_key.html).
 2. Replace `'Your Authentification Code'` in the script with your key.
 3. Run the script to generate the RMSE table and final forecast.
-
-
-
-
-# Urban Labor & Macroeconomic Analytics
-
-## Overview
-This repository contains a suite of labor market analyses focusing on both micro-dynamics and national macroeconomic forecasting.
-
-### Project 1: National Unemployment Forecasting (FRED)
-A time-series project using Initial Jobless Claims to predict the US Unemployment Rate.
-* **Methodology:** Distributed Lag Models & Out-of-Sample RMSE Validation.
-
-### Project 2: NYC Census Analysis (CPS)
-An investigation into the Education Premium and labor market stability for NYC residents. Replicates the BLS framework using weighted microdata.
-* **Visuals:** [Education vs. Earnings/Unemployment](visuals/nyc_education_premium_comparison.png)
-
----
-## Featured Results
-
-### The Stability Premium of Higher Education (NYC)
-![NYC Education Premium](visuals/nyc_education_premium_comparison.png)
-
-### NYC Unemployment Trend (2015-2025)
-![NYC Unemployment Trend](visuals/nyc_unemployment_trend_2015_2025.png)
-
----
-
-## Tech Stack
-* **R:** `tidyverse`, `srvyr`, `dynlm`, `plm`, `Hmisc`
-* **APIs:** IPUMS-CPS, FRED (Federal Reserve)
-* **Visuals:** High-resolution (300 DPI) exports via `ggplot2` and `gridExtra`.
-
----
-**Author:** Haya Adleh
